@@ -1,0 +1,14 @@
+/* SCSS HEX */
+$picton-blue: #33ABE2ff;
+$columbia-blue: #BCD4F4ff;
+$powder-blue: #A2C4EAff;
+$tangerine: #F78403ff;
+$french-blue: #1D72B7ff;
+$ghost-white: #EDF0FAff;
+$yale-blue: #093F82ff;
+
+@mixin flex($direction, $spacing){
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $spacing;
+}

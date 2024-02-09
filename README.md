@@ -25,7 +25,7 @@ Your task specifically relates to the "Consultation" phase of the user journey. 
 
 ## Getting Started/Code Installation
 
-[GitHub Repo](https://github.com/philiphart1006/genovia) >> Move into the “vite-project” folder >> npm install >> npm run dev
+[GitHub Repo](https://github.com/philiphart1006/genovia) >> npm install >> npm run dev
 
 (N.B. I am running Node v18.18.2)
 

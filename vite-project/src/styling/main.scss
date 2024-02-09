@@ -3,4 +3,24 @@
 
 // Component
 @import './form.scss';
-@import './headerfooter.scss'
+@import './headerfooter.scss';
+
+body {
+  margin: 0;
+  padding: 0
+}
+
+h1 {
+  margin-top: 64px;
+  margin-bottom: 64px;
+  font-size: 2rem;
+}
+
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+button{
+  margin: 16px;
+}

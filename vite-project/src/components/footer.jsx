@@ -11,9 +11,13 @@ export default function Footer(){
 
   // * JSX
   return (
-    <>
-      <div className="footerLHS"></div>
-      <div className="footerRHS"></div>
-    </>
+    <footer>
+      <div className="footerLHS">
+        <p>©MedExpress Genovia 2024</p>
+      </div>
+      <div className="footerRHS">
+        <p>In honorem monarchiae Genovianae</p>
+      </div>
+    </footer>
   )
 }

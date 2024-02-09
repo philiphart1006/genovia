@@ -2,10 +2,24 @@ header {
   img {
     height: 64px;
   }
+
+  background-color: $columbia-blue;
 }
 
 footer {
-  @include flex(row, space-between)
+  @include flex(row, space-between);
+
+  background-color: $yale-blue;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+
+  *{
+    color: $powder-blue;
+    font-weight: bold;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }
 
 @media  screen and (max-width: 768px) {

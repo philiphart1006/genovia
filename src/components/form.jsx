@@ -9,11 +9,11 @@ import { sendForm } from '../utils/actions'
 
 // Question set
 const questions = [
-  { id: 1, question: "Question 1"},
-  { id: 2, question: "Question 2"},
-  { id: 3, question: "Question 3"},
-  { id: 4, question: "Question 4"},
-  { id: 5, question: "Question 5"},
+  { id: 1, question: "Are you over 21 years old?"},
+  { id: 2, question: "Are you taking any other medication?"},
+  { id: 3, question: "Are you registered with a Genovian GP?"},
+  { id: 4, question: "Is this medication for yourself?"},
+  { id: 5, question: "Do you swear allegiance to Her Majesty Mia of Genovia?"},
 ]
 
 // * Default function
